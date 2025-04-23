@@ -29,4 +29,4 @@ Each circuit is saved as a separate `.circ` file and can be opened directly in L
 1. Download and install **Logisim**: [Logisim Download](http://www.cburch.com/logisim/)
 2. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/logic-gates-logisim.git
+   git clone [https://github.com/your-username/logic-gates-logisim.git](https://github.com/Jaffar-Kazmi/Logisim.git)
