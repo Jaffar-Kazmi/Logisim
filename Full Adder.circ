@@ -5,7 +5,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2"/>
   <lib desc="#Arithmetic" name="3"/>
+<<<<<<< HEAD
   <lib desc="#Memory" name="4"/>
+=======
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+>>>>>>> 89ca9e5 (Uploaded Files)
   <lib desc="#I/O" name="5"/>
   <lib desc="#Base" name="6">
     <tool name="Text Tool">
@@ -115,14 +125,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(220,200)" name="NOT Gate"/>
     <comp lib="0" loc="(90,160)" name="Pin"/>
+<<<<<<< HEAD
+=======
+    <comp lib="6" loc="(81,576)" name="Text">
+      <a name="text" val="Carry In"/>
+    </comp>
+>>>>>>> 89ca9e5 (Uploaded Files)
     <comp lib="6" loc="(509,535)" name="Text">
       <a name="text" val="Full Adder"/>
     </comp>
     <comp lib="5" loc="(960,270)" name="LED"/>
     <comp lib="5" loc="(960,450)" name="LED"/>
+<<<<<<< HEAD
     <comp lib="6" loc="(1002,454)" name="Text">
       <a name="text" val="Carry"/>
     </comp>
+=======
+>>>>>>> 89ca9e5 (Uploaded Files)
     <comp lib="1" loc="(720,300)" name="NOT Gate"/>
     <comp lib="1" loc="(720,250)" name="NOT Gate"/>
     <comp lib="1" loc="(220,250)" name="NOT Gate"/>
@@ -135,5 +154,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(760,450)" name="OR Gate"/>
     <comp lib="1" loc="(790,320)" name="AND Gate"/>
     <comp lib="1" loc="(390,220)" name="OR Gate"/>
+<<<<<<< HEAD
+=======
+    <comp lib="6" loc="(1011,455)" name="Text">
+      <a name="text" val="Carry Out"/>
+    </comp>
+>>>>>>> 89ca9e5 (Uploaded Files)
   </circuit>
 </project>
