@@ -115,7 +115,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <path d="M551,173 Q554,203 559,173" fill="none" stroke="#808080" stroke-width="2"/>
       <rect fill="none" height="298" stroke="#000000" stroke-width="2" width="239" x="441" y="171"/>
       <circ-port height="8" pin="140,370" width="8" x="436" y="216"/>
-      <circ-port height="8" pin="140,430" width="8" x="436" y="286"/>
       <circ-port height="8" pin="140,470" width="8" x="436" y="356"/>
       <circ-port height="8" pin="140,500" width="8" x="436" y="416"/>
       <circ-port height="8" pin="140,530" width="8" x="506" y="466"/>
@@ -240,10 +239,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(140,430)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Clock"/>
-    </comp>
     <comp lib="0" loc="(980,290)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -268,6 +263,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="4" loc="(390,290)" name="Register">
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(140,430)" name="Clock"/>
     <comp lib="0" loc="(140,470)" name="Pin">
       <a name="width" val="2"/>
       <a name="tristate" val="false"/>
@@ -292,6 +288,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="0" loc="(140,370)" name="Pin">
       <a name="tristate" val="false"/>
+      <a name="label" val="Input"/>
     </comp>
     <comp lib="2" loc="(880,130)" name="Multiplexer">
       <a name="select" val="2"/>
