@@ -97,9 +97,7 @@ Collections of flip-flops that store multiple bits of data.
 
 - **4 Bit Register File**: Contains multiple 4-bit registers with address selection
 - **4 Bit Register using D Flip Flop**: Basic 4-bit storage using D flip-flops
-- **4 Bit Registor File**: Alternative implementation of register file
-- **4 Bit Registor using D Flip Flop**: Alternative implementation using D flip-flops
-
+  
 ### Universal Gates
 Logic gates that can implement any Boolean function.
 
