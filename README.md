@@ -50,7 +50,7 @@ Digital circuits that perform arithmetic operations such as addition, subtractio
 
 - **Half Adder**: Adds two single binary digits (A and B) producing Sum and Carry outputs
 - **Full Adder**: Adds three binary digits (A, B, and Carry-in) producing Sum and Carry-out
-- **4-Bit Binary Adder**: Adds two 4-bit binary numbers using cascaded full adders
+- **4-Bit Binary Adder**: Adds two 4-bit binary numbers using cascaded(multiple adders connected in series) full adders
 - **Full Subtractor**: Performs subtraction of three binary digits (A, B, and Borrow-in)
 - **Shift Circuits**:
   - **Shift Left Register**: Shifts data left by one bit on each clock cycle
