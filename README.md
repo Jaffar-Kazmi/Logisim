@@ -3,6 +3,7 @@
 This repository contains a comprehensive collection of digital logic circuit designs implemented in Logisim, organized by category. These circuits range from basic logic gates to more complex components like arithmetic circuits, flip-flops, registers, and counters.
 
 ## Repository Structure
+```
 ├── Arithmetic Circuits
 │ ├── Shift
 │ │ ├── Bidirectional Shift Registers.circ
@@ -40,6 +41,7 @@ This repository contains a comprehensive collection of digital logic circuit des
 └── Universal Gates
 ├── NAND Logic gate.circ
 └── NOR Logic gate.circ
+```
 
 ## Circuit Categories
 
